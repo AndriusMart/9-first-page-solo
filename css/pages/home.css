@@ -2,6 +2,7 @@
 @import "../base/base.css";
 @import "../base/layout.css";
 @import "../base/header.css";
+@import "../base/about.css";
 
 /* 3rd-p */
 @import "../3rd-party/font-awesome.min.css";
@@ -12,4 +13,5 @@
 @import "../components/progress-bar.css";
 @import "../components/logo.css";
 @import "../components/navigacion.css";
+@import "../components/main-title.css";
 /* customs */
