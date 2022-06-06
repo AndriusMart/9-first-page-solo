@@ -3,6 +3,8 @@
 @import "../base/layout.css";
 @import "../base/header.css";
 @import "../base/about.css";
+@import "../base/myresume.css";
+@import "../base/myskills.css";
 
 /* 3rd-p */
 @import "../3rd-party/font-awesome.min.css";

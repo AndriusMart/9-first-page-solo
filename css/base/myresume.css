@@ -1,0 +1,6 @@
+.my-resume{
+    padding: 100px 0;
+    display: flex;
+    width: 1000px;
+    margin: 0 calc(50% - 500px);
+}
