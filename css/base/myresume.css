@@ -5,9 +5,10 @@
      display: inline-block;
 }
 .list{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 110px;
 }
 .list-right{
     text-align: left;
@@ -18,23 +19,10 @@
 .list-bits{
     position: relative;
 }
-.list-spacing{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 20px;
-}
-.list-column{
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-
-}
 .dot{
-    margin-top: 2px;
-    border: 3px solid goldenrod;
+    border: 2px solid goldenrod;
     border-radius: 50%;
-    padding: 6px;
+    padding: 4px;
     background-color: black;
     position: absolute;
     right: -30px;
@@ -44,14 +32,19 @@
     left: -30px
 }
 .text-date{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     position: relative;
+    font-size: 12px;
 }
 .text-info{
     margin-bottom: 5px;
+    color: var(--main-title-color);
+    font-weight: bold;
 
 }
 .text-location{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    color: gray;
 
 }
