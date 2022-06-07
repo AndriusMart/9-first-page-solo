@@ -1,6 +1,57 @@
 .my-resume{
-    padding: 100px 0;
+     width: 100%;
+     padding: 100px;
+     text-align: center;
+     display: inline-block;
+}
+.list{
     display: flex;
-    width: 1000px;
-    margin: 0 calc(50% - 500px);
+    justify-content: center;
+    gap: 80px;
+}
+.list-right{
+    text-align: left;
+}
+.list-left{
+    text-align: right;
+}
+.list-bits{
+    position: relative;
+}
+.list-spacing{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.list-column{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+.dot{
+    margin-top: 2px;
+    border: 3px solid goldenrod;
+    border-radius: 50%;
+    padding: 6px;
+    background-color: black;
+    position: absolute;
+    right: -30px;
+}
+.dotr{
+    right: auto;
+    left: -30px
+}
+.text-date{
+    margin-bottom: 50px;
+    position: relative;
+}
+.text-info{
+    margin-bottom: 5px;
+
+}
+.text-location{
+    margin-bottom: 100px;
+
 }

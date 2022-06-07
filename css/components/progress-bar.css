@@ -1,0 +1,36 @@
+.progress-bar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.progress-bar > .top{
+    display: flex;
+    justify-content: space-between;
+}
+.progress-bar > .bottom {
+    height: 6px;
+    background-color: white;
+    border-radius: 40px;
+    overflow: hidden;
+}
+.progress-bar > .bottom > .bar{
+    width: 90%;
+    height: 100%;
+}
+.progress-bar > .bottom > .bar > .loader {
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-title-color);
+    animation: loading 2s forwards;
+    position: relative;
+}
+@keyframes loading {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}

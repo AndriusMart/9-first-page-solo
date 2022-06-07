@@ -1,0 +1,19 @@
+.my-skills{
+    background-color: #ccc;
+    width: 100%;
+    padding: 100px;
+    text-align: center;
+    display: inline-block;
+}
+.progress-bars-style{
+    display: flex;
+    gap: 30px;
+    width: 1100px;
+    margin: 50px calc(50% - 550px);
+}
+.right-column{
+    width: 50%;
+}
+.left-column{
+    width: 50%;
+}
