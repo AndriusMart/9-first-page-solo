@@ -10,15 +10,44 @@
     justify-content: center;
     gap: 110px;
 }
+@media (max-width: 460px) {
+    .list {
+        display: inline-block;
+    }
+}
 .list-right{
     text-align: left;
+    padding-left: 24px;
+    border-left: 1px solid grey;
+    padding-top: 50px;
 }
 .list-left{
     text-align: right;
+    padding-right: 24px;
+    border-right: 1px solid grey;
+    padding-top: 50px;
 }
 .list-bits{
     position: relative;
 }
+.list-icons{    
+    border: 2px solid var(--main-title-color);
+    background-color: #484848;
+    position: absolute;
+    top: -80px;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+}
+.list-icons-left{
+    right: -45px;
+
+}
+.list-icons-right{
+    left: -45px;
+
+}
+
 .dot{
     border: 2px solid goldenrod;
     border-radius: 50%;
@@ -33,7 +62,6 @@
 }
 .text-date{
     margin-bottom: 20px;
-    position: relative;
     font-size: 12px;
 }
 .text-info{
