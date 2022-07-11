@@ -1,20 +1,12 @@
 /* base */
 @import "../base/base.css";
 @import "../base/layout.css";
-@import "../base/header.css";
-@import "../base/about.css";
-@import "../base/myresume.css";
-@import "../base/myskills.css";
-@import "../base/info.css";
 /* 3rd-p */
 @import "../3rd-party/font-awesome.min.css";
 
 /* components */
-@import "../components/button.css";
 @import "../components/form.css";
 @import "../components/progress-bar.css";
-@import "../components/logo.css";
-@import "../components/navigacion.css";
 @import "../components/main-title.css";
 /* customs */
 
@@ -60,6 +52,19 @@
 
     }
 }
+.sticky {
+    position: fixed;
+    top: 0;
+  }
+  .navigationScroll {
+    text-decoration: none;
+    margin-right: 30px;
+    color: var(--secondary-nav-color);
+}
+.navigationScroll:first-child {
+    color: var(--base-nav-color);
+}
+
 .hero{
     background-image: url("../../img/header.jpg");
     height: 100vh;

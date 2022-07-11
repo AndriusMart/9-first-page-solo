@@ -1,4 +1,4 @@
-function myskills(selector, data) {
+function info(selector, data) {
     // validuojame atejusius duomenis
     const inputResult = isValidServiceInput(selector, data);
     if (inputResult !== true) {
@@ -18,16 +18,10 @@ function myskills(selector, data) {
             continue;
         }
         HTML += `
-        <div class="progress-bar">
-        <div class="top">
-            <div class="lable">${item.title}</div>
-            <div class="value" >${item.value}</div>  
-        </div>
-        <div class="bottom">
-            <div class="bar" style="width: ${item.value};">
-                <div class="loader"></div>
-            </div>
-        </div>
+        <div class="each-stat">
+        <div class="fa fa-${item.icon} info-icon " ></div>
+        <h3 class="info-numbers">${item.numbers}</h3>
+        <p class="info-text">${item.text}</p>
     </div>`;
     }
 
@@ -60,15 +54,18 @@ function isValidServiceItem(data) {
     if (typeof data !== 'object'
         || data === null
         || Array.isArray(data)
-        || typeof data.value !== 'string'
-        || !data.value
-        || data.value.length > 15
-        || typeof data.title !== 'string'
-        || !data.title
-        || data.title.length > 20) {
+        || typeof data.icon !== 'string'
+        || !data.icon
+        || data.icon.length > 15
+        || typeof data.numbers !== 'string'
+        || !data.numbers
+        || data.numbers.length > 20
+        || typeof data.text !== 'string'
+        || !data.text
+        || data.text.length > 30) {
         return false;
     }
     return true;
 }
 
-export { myskills }
+export { info }

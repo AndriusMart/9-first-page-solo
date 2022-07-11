@@ -10,7 +10,7 @@
 
 <body>
     <header class="hero">
-        <section class="header">
+        <section id="myHeader" class="header">
             <div>
                 <a href="#"><img class="logo" src="./img/logo-2.png" alt="logo"></a>
             </div>
@@ -62,54 +62,9 @@
         <section class="my-skills">
             <h1 class="title"><span>My</span>Skills</h1>
         <div class="progress-bars-style">
-            <div id="myskills_block" class=" right-column">
-                
-            
-            <div class="left-column">
-                <div class="progress-bar">
-                    <div class="top">
-                        <div class="lable">HTML / CSS</div>
-                        <div class="value" >95%</div>  
-                    </div>
-                    <div class="bottom">
-                        <div class="bar" style="width: 95%;">
-                            <div class="loader"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <div class="top">
-                        <div class="lable">JS / JQUERY</div>
-                        <div class="value" >80%</div>  
-                    </div>
-                    <div class="bottom">
-                        <div class="bar" style="width: 80%;">
-                            <div class="loader"><div class="value" >80%</div> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <div class="top">
-                        <div class="lable">PHP / WORDPRESS</div>
-                        <div class="value" >75%</div>  
-                    </div>
-                    <div class="bottom">
-                        <div class="bar" style="width: 75%;">
-                            <div class="loader"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="progress-bar">
-                    <div class="top">
-                        <div class="lable">PHOTO SHOP</div>
-                        <div class="value" >94%</div>  
-                    </div>
-                    <div class="bottom">
-                        <div class="bar" style="width: 94%;">
-                            <div class="loader"></div>
-                        </div>
-                    </div>
-                </div>
+            <div id="myskills_block_right" class=" right-column">
+            </div>
+            <div id="myskills_block_left" class="left-column">
             </div>
         </div>
         </section>
@@ -162,33 +117,18 @@
                 
 
         </section>
-        <section class="info-stats">
-            <div class="each-stat">
-                <div class="fa fa-briefcase info-icon " ></div>
-                <h3 class="info-numbers">738</h3>
-                <p class="info-text">happy clients</p>
-            </div>
-            <div class="each-stat">
-                <div class="fa fa-briefcase info-icon " ></div>
-                <h3 class="info-numbers">738</h3>
-                <p class="info-text">happy clients</p>
-            </div>
-            <div class="each-stat">
-                <div class="fa fa-briefcase info-icon " =></div>
-                <h3 class="info-numbers">738</h3>
-                <p class="info-text">happy clients</p>
-            </div>
-            <div class="each-stat">
-                <div class="fa fa-briefcase info-icon " =></div>
-                <h3 class="info-numbers">738</h3>
-                <p class="info-text">happy clients</p>
-            </div>
+        <section id="info_block" class="info-stats">
         </section>
         <section>
 
         </section>
 
+      <!--js-->
+    <!--my-->
+    <script src="./js/pages/home.js" type="module" defer></script>
+    <script src="./js/components/myHeader.js" type="module" defer></script>
 
+    <!--js-->
 
 </body>
 </html>

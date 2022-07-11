@@ -1,16 +1,14 @@
 /* myskills */
 import { myskills } from '../components/myskills.js';
-import {myskillsData} from '../data/myskillsData.js';
+import { myskillsDataRight } from '../data/myskillsDataRight.js';
+myskills('#myskills_block_right', myskillsDataRight);
 
-features('#myskills_block', myskillsData);
 
+import { servicesDataLeft } from '../data/myskillsDataLeft.js';
+myskills('#myskills_block_left', servicesDataLeft);
 /* myskills */
-
-
-
-
-
-/*js */
-/*myskills */
-<script src="./js/pages/home.js" type="module" defer></script>
-/*myskills */
+/*info */
+import { info } from '../components/info.js';
+import { infoData } from '../data/infoData.js';
+info('#info_block', infoData);
+/*info */
