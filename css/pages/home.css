@@ -480,5 +480,52 @@
 }
 /*end info*/
 
-/*start header*/
-/*end header*/
+/*start services*/
+.my-services{
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgb(235, 235, 235);
+    border: 1px whitesmoke solid;
+}
+.services > .icon {
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    font-size: 36px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    transition: all 0.5s;
+    color: var(--secondary-nav-color);
+}
+.services > .icon:hover {
+    background-color: var(--secondary-nav-color);
+    color: #fff;
+}
+.services > .titles {
+    font-size: 20px;
+}
+.services > .description {
+    font-size: 16px;
+}
+/*end services*/
+
+
+/*start portfolio*/
+/*end portfolio*/
+/*start services*/
+/*end services*/
+/*start services*/
+/*end services*/
+/*start services*/
+/*end services*/
+/*start services*/
+/*end services*/

@@ -12,3 +12,10 @@ import { info } from '../components/info.js';
 import { infoData } from '../data/infoData.js';
 info('#info_block', infoData);
 /*info */
+/*services */
+import { services } from '../components/services.js';
+import { servicesData } from '../data/servicesData.js';
+
+services('#services_block', servicesData);
+
+/*services */
