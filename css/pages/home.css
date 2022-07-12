@@ -521,8 +521,122 @@
 
 /*start portfolio*/
 /*end portfolio*/
-/*start services*/
-/*end services*/
+
+
+
+/*start Testimonials*/
+.testimonial-bg{
+    background-image: url("../../img/client.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow:inset 0 0 0 2000px rgba(12, 1, 8, 0.692);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.titil{
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: var(--secondary-nav-color);
+}
+.slideCenter{
+    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+#testSlides{
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonials-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
+    animation-duration: 0.5s;
+    animation-name: slidein;
+    padding: 30px 0 ;
+    box-shadow:inset 0 0 0 2000px rgba(12, 1, 8, 0.692);
+  }
+  
+  @keyframes slidein {
+    0% {
+      margin-left: 100%;
+      width: 100%;
+    }
+  
+    100% {
+      margin-right: 100%;
+      width: 100%;
+    }
+  }
+
+  .clientName,
+  .clientJob,
+  .clientComm{
+    margin-bottom: 10px;
+    color: white;
+  }
+  .clientJob,
+  .clientName{
+    font-size: 18px;
+    font-weight: lighter;
+    text-transform: uppercase;
+  }
+  .clientJob{
+      font-weight: bold;
+  }
+
+
+.clientComm{
+    letter-spacing: 1px;
+}
+.stars{
+    margin-bottom: 10px;
+    height: 20px;
+    color: orange;
+    font-size: 18px;
+    animation-name: starsAppear;
+    animation-duration: 2s;
+}
+@keyframes starsAppear {
+    0%   {font-size: 2px}
+    25%  {font-size: 6px}
+    50%  {font-size: 12px}
+    100% {font-size: 18px}
+  }
+
+.dotsPlace{
+    padding: 20px 10px;
+}
+.dots {
+    cursor: pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    transition: 1s;
+  }
+  .active,
+  .dots:hover{
+    background-color: var(--secondary-nav-color);
+    padding: 0 10px ;
+  }
+/* ------testimonial  close-------*/
+/*end Testimonials*/
 /*start services*/
 /*end services*/
 /*start services*/

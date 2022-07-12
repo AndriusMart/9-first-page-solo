@@ -19,3 +19,10 @@ import { servicesData } from '../data/servicesData.js';
 services('#services_block', servicesData);
 
 /*services */
+/*testimonials */
+import { testimonialsData } from '../data/testimonialsData.js';
+import { testimonials } from '../components/testimonials.js';
+
+testimonials ('#testSlides', testimonialsData)
+
+/*testimonials */
