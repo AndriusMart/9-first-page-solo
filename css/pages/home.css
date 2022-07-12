@@ -31,6 +31,7 @@
     position: fixed; 
     background-color: white;
     transition: 0.2s;
+    width: 100%;
 }
 .container > .row {
     margin-top: 0;
@@ -313,7 +314,7 @@
         margin-top: 5px;
     }
 }
-@media (max-width: 550px) {
+@media (max-width: 650px) {
     .about-me{
         margin: 0;
         padding: 20px 0;
