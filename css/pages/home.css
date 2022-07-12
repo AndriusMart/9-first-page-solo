@@ -213,59 +213,14 @@
     box-sizing: border-box;
 }
 
-@media (max-width: 1100px) {
-    .about {
-        width: 800px;
-        margin: 0 calc(50% - 400px);
-    }
-    .about-img{
-        height: 500px;
-    }
-    .btn{
-        display: inline-block;
-        margin-top: 5px;
-    }
-}
-@media (max-width: 800px) {
-    .about {
-        display: flex;
-        flex-direction: column;
-        padding-left: 20px;
-        padding-right: 20px;
-        align-items: center;
-        width: 600px;
-        margin: 0 calc(50% - 400px);
-    }
-    .about-content{
-        padding: 20px;
-        width: 460px;
-    }
-    .btn{
-        display: inline-block;
-        margin-top: 5px;
-    }
-}
-@media (max-width: 550px) {
-    .about {
-        width: 400px;
-        margin: 0 calc(50% - 255px);
-    }
-    .about-content{
-        padding: 20px;
-        width: 100%;
-    }
-    .btn{
-        display: inline-block;
-        margin-top: 5px;
-    }
-}
+
 .about{
     display: flex;
     margin: auto;
 }
 .about-img{
     width: 350px;
-    margin: 0 50px;
+    margin-right: 50px;
 }
 .about-text{
     margin-top: 20px;
@@ -305,6 +260,81 @@
 }
 .about-info-right{
     margin-left: 100px;
+}
+@media (max-width: 2000px) {
+    .about {
+        width: 1400px;
+        margin: 0 calc(50% - 700px);
+    }
+
+}
+@media (max-width: 1600px) {
+    .about {
+        width: 1100px;
+        margin: 0 calc(50% - 550px);
+    }
+
+}
+@media (max-width: 1150px) {
+    .about {
+        width: 800px;
+        margin: 0 calc(50% - 400px);
+    }
+    .about-img{
+        height: 500px;
+    }
+    .btn{
+        display: inline-block;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 900px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+        width: 600px;
+        margin: 0 calc(50% - 300px);
+    }
+    .about-content{
+        padding: 20px;
+        width: 460px;
+    }
+    .btn{
+        display: inline-block;
+        margin-top: 5px;
+    }
+}
+@media (max-width: 550px) {
+    .about-me{
+        margin: 0;
+    }
+    .about {
+        margin: 0;
+width: 100%;
+    }
+    .about-content{
+        padding: 20px;
+        width: 100%;
+    }
+    .btn{
+        display: inline-block;
+        margin-top: 5px;
+    }
+    .about-img{
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+    .about-info{
+        display: block;
+    }
+    .about-info-right{
+        margin: 0;
+        margin-top: 8px;
+    }
 }
 
 /*end about*/
