@@ -607,7 +607,7 @@
     color: orange;
     font-size: 18px;
     animation-name: starsAppear;
-    animation-duration: 2s;
+    animation-duration: 1s;
 }
 @keyframes starsAppear {
     0%   {font-size: 2px}
