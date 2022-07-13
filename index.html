@@ -127,7 +127,7 @@
         </section>
         <section class="container my-services" id="scroll-services">
             <div class="row">
-                <h2 class="title">Services</h2>
+                    <h1 class="title mid"><span>My</span>Services</h1>
             </div>
             <div id="services_block" class="row"></div>
         </section>
@@ -136,6 +136,10 @@
                 <div class="col-12 col-md-8 col-lg-6" id="testSlides">
                 </div>
             </div>
+        </section>
+        <section class="my-resume" id="scroll-resume">
+            <h1 class="title mid"><span>Latest </span>Blog</h1>
+
         </section>
 
       <!--js-->
@@ -147,17 +151,12 @@
     <script>
         let slideIndex = 1;
 showSlides(slideIndex);
-
-// Next/previous controls
 function plusSlides(n) {
     showSlides(slideIndex += n);
   }
-  
-  // Thumbnail image controls
   function currentSlide(n) {
     showSlides(slideIndex = n);
   }
-
   function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("testimonials-slide");
@@ -173,7 +172,6 @@ function plusSlides(n) {
     slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
   }
-
     </script>
     <!--testimonials js-->
     <!--js-->
