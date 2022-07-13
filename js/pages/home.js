@@ -26,3 +26,10 @@ import { testimonials } from '../components/testimonials.js';
 testimonials ('#testSlides', testimonialsData)
 
 /*testimonials */
+
+/*blog */
+import { blogData } from '../data/blogData.js';
+import { blog } from '../components/blog.js';
+
+blog ('#blog_block', blogData)
+/*blog */

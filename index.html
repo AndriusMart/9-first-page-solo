@@ -24,7 +24,7 @@
                     <li ><a class="mainlinks" href="#scroll-skills">Skills</a></li>
                     <li ><a class="mainlinks" href="#scroll-resume">Resume</a></li>
                     <li ><a class="mainlinks" href="#scroll-services">Services</a></li>
-                    <li ><a class="mainlinks" href="#">Contact</a></li>
+                    <li ><a class="mainlinks" href="#scroll-blog">Blog</a></li>
                   </ul>
                 </ul>
                 </div>
@@ -137,9 +137,10 @@
                 </div>
             </div>
         </section>
-        <section class="my-resume" id="scroll-resume">
+        <section class="latest-blog" id="scroll-blog">
             <h1 class="title mid"><span>Latest </span>Blog</h1>
-
+            <div class="blog" id="blog_block">
+            </div>
         </section>
 
       <!--js-->
@@ -169,7 +170,7 @@ function plusSlides(n) {
     for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";
+    slides[slideIndex-1].style.display ="block";
     dots[slideIndex-1].className += " active";
   }
     </script>
